@@ -1,0 +1,28 @@
+{
+  "name": "antonkuku/phpdoc-apache-cassandra",
+  "type": "library",
+  "description": "@phpdoc extension Apache Cassandra for IDE autocomplete",
+  "keywords": [
+    "apache",
+    "cassandra",
+    "helper",
+    "phpdoc"
+  ],
+  "homepage": "https://github.com/antonkuku/phpdoc-apache-cassandra",
+  "authors": [
+    {
+      "name": "Anton Kuku",
+      "email": "kuku.anton@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.4"
+  },
+  "version": "1.0",
+  "autoload": {
+    "psr-0": {
+      "phpdoc-apache-cassandra": "src/"
+    }
+  }
+}
